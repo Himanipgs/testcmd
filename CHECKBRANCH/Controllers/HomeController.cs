@@ -18,6 +18,11 @@ namespace CHECKBRANCH.Controllers
             return View();
         }
 
+        public IActionResult login()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
